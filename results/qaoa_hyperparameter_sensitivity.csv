@@ -1,0 +1,8 @@
+﻿Run,p_layers,Penalty_factor,Steps_per_QAOA,Raw_cost_km,Refined_cost_km,Ratio,Notes
+1,4,5,80,1710.46,1322.21,1.011,Strong late-stage convergence (p up to 0.700)
+2,4,5,80,1466.17,1326.29,1.014,Moderate early guidance
+3,4,5,80,2044.19,1322.32,1.011,Consistent refinement gain
+4,6,3,80,1847.22,1352.13,1.034,"Deeper circuit, higher early energy"
+5,6,1.5,80,1574.15,1376.43,1.052,Lower penalty -> weaker constraint enforcement
+6,6,5,80,2047.63,1326.29,1.014,"Fallback on first step, strong recovery"
+7,4,5,120,1642.01,1307.84,1,Best result - exact optimal after refinement
